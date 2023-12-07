@@ -1,0 +1,43 @@
+label,
+input {
+  display: block;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+label {
+  margin-bottom: 10px;
+}
+button {
+  height: 40px;
+  width: 197px;
+  margin-top: 20px;
+}
+input,
+select {
+  height: 40px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.submit {
+  background-color: rgb(22, 167, 22);
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 5px;
+}
+.reset {
+  background-color: grey;
+  border: none;
+  color: white;
+  font-weight: 900;
+  border-radius: 5px;
+}
+a {
+  color: rgb(40, 119, 238);
+  text-decoration: underline;
+}
